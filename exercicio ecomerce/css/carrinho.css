@@ -1,0 +1,58 @@
+body {
+    background: #171a21;
+    color: #c7d5e0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carrinho-container {
+    background: #1b2838;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.item-carrinho {
+    background: #2a475e;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.item-carrinho img {
+    width: 120px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.item-carrinho h5 {
+    color: white;
+    margin: 0;
+}
+
+.item-carrinho p {
+    color: #66c0f4;
+    font-weight: bold;
+    margin: 0;
+}
+
+.total {
+    font-size: 28px;
+    color: #66c0f4;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.btn-finalizar {
+    background: linear-gradient(#66c0f4,#417a9b);
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+}
